@@ -9,7 +9,7 @@ class ContaController extends Controller
     // Listar as contas
 
     public function index() {
-        dd("Listar");
+        return view('contas.index');
     }
 
     //Detalhes da conta
