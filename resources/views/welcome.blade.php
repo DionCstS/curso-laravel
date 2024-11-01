@@ -7,6 +7,7 @@
     </head>
     <body>
         <h1>Projeto Laravel</h1>
-        <a href="{{ route('index.conta') }}">Listar as contas</a>
+        <a href="{{ route('index.conta') }}">Listar as contas</a><br>
+        <a href="{{ route('create.conta')}}">Criar</a>
     </body>
 </html>
