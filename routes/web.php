@@ -12,3 +12,4 @@ Route::get('/create-conta', [ContaController::class, 'create'])->name('create.co
 Route::post('/store-conta', [ContaController::class, 'store'])->name('store.conta');
 Route::get('/show-conta', [ContaController::class, 'show'])->name('show.conta');
 Route::get('edit-conta', [ContaController::class, 'edit'])->name('edit.conta');
+Route::put('/update-conta', [ContaController::class, 'update'])->name('update.conta');

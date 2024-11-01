@@ -28,6 +28,10 @@ class ContaController extends Controller
         return view('contas.edit');
     }
 
+    public function update() {
+        return dd("Atualizar");
+    }
+
     //Detalhes da conta
 
     //Carregar formulário cadastrar nova conta
