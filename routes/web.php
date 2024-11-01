@@ -10,3 +10,4 @@ Route::get('/', function () {
 Route::get('/index-conta', [ContaController::class, 'index'])->name('index.conta');
 Route::get('/create-conta', [ContaController::class, 'create'])->name('create.conta');
 Route::post('/store-conta', [ContaController::class, 'store'])->name('store.conta');
+Route::get('/show-conta', [ContaController::class, 'show'])->name('show.conta');
