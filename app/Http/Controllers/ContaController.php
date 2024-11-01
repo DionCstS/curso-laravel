@@ -32,6 +32,10 @@ class ContaController extends Controller
         return dd("Atualizar");
     }
 
+    public function destroy() {
+        return dd("Deletar");
+    }
+
     //Detalhes da conta
 
     //Carregar formulário cadastrar nova conta
