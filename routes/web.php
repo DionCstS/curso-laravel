@@ -8,4 +8,5 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::get('/index-conta', [ContaController::class, 'index'])->name('index.conta');
-Route::get('/index-create', [ContaController::class, 'create'])->name('create.conta');
+Route::get('/create-conta', [ContaController::class, 'create'])->name('create.conta');
+Route::post('/store-conta', [ContaController::class, 'store'])->name('store.conta');

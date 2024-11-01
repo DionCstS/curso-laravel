@@ -16,6 +16,10 @@ class ContaController extends Controller
         return view('contas.create');
     }
 
+    public function store() {
+        return dd("Cadastrar");
+    }
+
     //Detalhes da conta
 
     //Carregar formulário cadastrar nova conta
