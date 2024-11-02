@@ -8,7 +8,8 @@
 <body>
 <h1>Listar as Contas</h1>
         <a href="{{ route('create.conta')}}">Cadastrar</a><br>
-        <a href="{{ route('edit.conta') }}">Editar</a><br>
         <a href="{{ route('show.conta') }}">Visualizar</a>
+        <a href="{{ route('edit.conta') }}">Editar</a><br>
+        
 </body>
 </html>
