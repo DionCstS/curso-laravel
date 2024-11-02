@@ -9,7 +9,7 @@
     <a href="{{ route('index.conta') }}">Listar</a>
     <h2>Criar conta</h2>
 
-    <div action="" method="POST">
+    <div action="{{ route('store.conta') }}" method="POST">
         @csrf
         
         <label for="">Nome</label>
