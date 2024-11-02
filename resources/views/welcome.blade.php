@@ -6,8 +6,7 @@
         <title>Laravel</title>
     </head>
     <body>
-        <h1>Projeto Laravel</h1>
-        <a href="{{ route('index.conta') }}">Listar as contas</a><br>
-        <a href="{{ route('create.conta')}}">Criar</a>
+        <h1>Index</h1>
+        
     </body>
 </html>

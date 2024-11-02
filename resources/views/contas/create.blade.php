@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="{{ route('index.conta') }}">Listar</a>
     <h2>Criar conta</h2>
-    <a href="{{ route('inicio') }}">Voltar pro inicio</a>
 </body>
 </html>

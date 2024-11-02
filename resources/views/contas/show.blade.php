@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Show</h2>
+    <a href="{{ route('index.conta') }}">Listar</a>
+    <h2>Detalhes da Conta</h2>
 </body>
 </html>

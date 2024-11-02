@@ -47,15 +47,6 @@ class ContaController extends Controller
     public function destroy() {
         return dd("Deletar");
     }
-
-    
-
-    
-
-    
-
-    
-
     
 
     

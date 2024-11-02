@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Listar as contas</h2>
-    <a href="{{ route('inicio')}}">Voltar pro inicio</a>
-    
+<h1>Listar as Contas</h1>
+        <a href="{{ route('create.conta')}}">Cadastrar</a><br>
+        <a href="{{ route('edit.conta') }}">Editar</a><br>
+        <a href="{{ route('show.conta') }}">Visualizar</a>
 </body>
 </html>
