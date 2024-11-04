@@ -25,7 +25,9 @@ class ContaController extends Controller
     public function store(Request $request) {
         //Cadastro no banco de dados na tabela contas os valores de todos os campos 
         $conta = Conta::create($request->all());
-        dd($conta);
+
+        //Redirecionar o usuário, Enviar a mensagem de sucesso
+        return redirect()->route('show.conta')->with('success', 'Conta cadastrada com sucesso');
     }
 
     //Detalhes da Conta
