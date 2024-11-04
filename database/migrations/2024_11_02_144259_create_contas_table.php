@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('contas', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->double('valor');
+            $table->float('valor');
             $table->date('vencimento');
             $table->timestamps();
         });
