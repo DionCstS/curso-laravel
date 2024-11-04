@@ -8,5 +8,9 @@
 <body>
     <a href="{{ route('index.conta') }}">Listar</a>
     <h2>Detalhes da Conta</h2>
+    @if ( session('success') ) 
+        {{ session('success') }}
+    @endif
+
 </body>
 </html>
