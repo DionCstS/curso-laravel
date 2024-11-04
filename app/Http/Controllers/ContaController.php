@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Conta;
+
 class ContaController extends Controller
 {
     // Listar as contas
@@ -20,8 +22,10 @@ class ContaController extends Controller
 
     //Cadastrar no banco de dados nova conta 
 
-    public function store() {
-        return dd("Cadastrar");
+    public function store(Request $request) {
+        //Cadastro no banco de dados na tabela contas os valores de todos os campos 
+        $conta = Conta::create($request->all());
+        dd($conta);
     }
 
     //Detalhes da Conta
